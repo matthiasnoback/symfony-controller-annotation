@@ -1,5 +1,7 @@
 # Symfony controller annotation helper library
 
+[![Build Status](https://travis-ci.org/matthiasnoback/symfony-controller-annotation?branch=master)](https://travis-ci.org/matthiasnoback/symfony-controller-annotation)
+
 This library contains an abstract class for event listeners that respond to controller annotations.
 
 Read more about this in the chapter "Using annotations" of my book, [A Year With
