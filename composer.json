@@ -1,0 +1,25 @@
+{
+    "name": "matthiasnoback/symfony-controller-annotation",
+    "description": "Helper library for creating event listeners that influence a Symfony application flow based on annotations",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthias Noback",
+            "email": "matthiasnoback@gmail.com",
+            "homepage": "http://php-and-symfony.matthiasnoback.nl"
+        }
+    ],
+    "autoload": {
+        "psr-0" : {
+            "Matthias\\SymfonyControllerAnnotation\\" : "src/",
+            "Matthias\\SymfonyControllerAnnotation\\Tests" : "tests/"
+        }
+    },
+    "require": {
+        "symfony/http-kernel": "2.*",
+        "doctrine/annotations": "1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7"
+    }
+}
