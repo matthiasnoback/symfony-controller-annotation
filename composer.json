@@ -11,8 +11,7 @@
     ],
     "autoload": {
         "psr-0" : {
-            "Matthias\\SymfonyControllerAnnotation\\" : "src/",
-            "Matthias\\SymfonyControllerAnnotation\\Tests" : "tests/"
+            "Matthias\\SymfonyControllerAnnotation\\" : "src/"
         }
     },
     "require": {
