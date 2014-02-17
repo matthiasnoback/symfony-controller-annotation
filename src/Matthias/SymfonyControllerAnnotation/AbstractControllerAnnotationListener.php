@@ -51,7 +51,7 @@ abstract class AbstractControllerAnnotationListener
                 $annotationClass
             );
 
-        if (!($annotation instanceof $annotationClass)) {
+        if (!$annotation instanceof $annotationClass) {
             return;
         }
 
